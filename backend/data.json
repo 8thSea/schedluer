@@ -1,0 +1,10 @@
+{
+  "clients": [
+    { "id": 1, "name": "Alice", "contact": "alice@example.com" },
+    { "id": 2, "name": "Bob", "contact": "bob@example.com" }
+  ],
+  "bills": [
+    { "id": 1, "clientId": 1, "amount": 100, "dueDate": "2024-08-05", "description": "Rent", "paid": false },
+    { "id": 2, "clientId": 2, "amount": 200, "dueDate": "2024-08-10", "description": "Subscription", "paid": true, "paidDate": "2024-08-01T12:00:00Z" }
+  ]
+}
